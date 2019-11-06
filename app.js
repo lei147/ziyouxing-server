@@ -10,7 +10,7 @@ const cors=require("cors");
 var app=express();
 
 
-app.listen(443);
+app.listen(5050);
 app.use(cors({
   //允许跨域url列表
   origin:["http://47.105.62.171:8086","http://localhost:8086","http://127.0.0.1:8086"],
