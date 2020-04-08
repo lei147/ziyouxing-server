@@ -13,7 +13,7 @@ var app=express();
 app.listen(80);
 app.use(cors({
   //允许跨域url列表
-  origin:["http://47.105.62.171:8086","http://localhost:8086","http://127.0.0.1:8086"],
+  origin:["http://localhost:8080","http://127.0.0.1:8080"],
   credentials:true//每次请求需要验证
 }))
 //使用body-parser中间件，将post请求的数据解析为对象
